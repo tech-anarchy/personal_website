@@ -1,10 +1,18 @@
 let experiances = [
     {
+        position : "Software Engineer II",
+        company : "Silicon Laboratories Inc., Austin.",
+        start : "Jul. 2023",
+        end_month: "Present",
+        end_year: "",
+        desc : "</br></br>",
+    },
+    {
         position : "Graduate Research Assistant",
         company : "Distributed AI Robotics Lab, Texas A & M University, College Station.",
         start : "Sep. 2017",
-        end_month: "Present",
-        end_year: "",
+        end_month: "May 2023",
+        end_year: "2023",
         desc : "<i class='bx bx-chevrons-right'></i> Designed and analyzed planning problems for multi-agent systems. </br>" +
                 "<i class='bx bx-chevrons-right'></i> Designed and analyzed economic theories for multi-agent crowdsouring systems.",
     },
