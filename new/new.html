@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <div id="resume-container">
+        <div class="intro">
+            <h1 class="intro-header">
+                Diptanil Chaudhuri, Ph.D.(CS).
+                <span id="typed" data-typed-items="Python, C++, Matlab, Embedded-C, C#"></span>
+            </h1>
+            <p class="press-start-2p-regular"> Software Engineer at Silicon Labs.</p>
+        </div>
+        <div class="section-spacer"></div>
+        <div class="section about-me">
+            <h1 class="section-header"  onclick="toggleSectionContent('about-me-description')">> about_me</h1>
+            <div id="about-me-description" class="section-description">
+                <p>Hi, I am an Software Engineer working at Silicon Labs. Previously,
+                I was pursuing my Doctorate (Ph.D.) in Computer Science from Texas A&M University
+                under the advice of
+                <a href="https://cse-robotics.engr.tamu.edu/dshell/">Dr. Dylan A. Shell</a>.
+                My interest includes Machine Learning,
+                Robotics, Artificial Intelligence. My previous experiances involving working in
+                multitude of domains form game design to embbdded syatems to an artificial
+                intelligence researcher. My hobbies include hiking, astrophotography, scuba diving,
+                and occational fishing. </p>
+            </div>
+        
+        </div>
+        <div class="section-spacer"></div>
+        <div class="section education">
+            <h1 class="section-header" onclick="toggleSectionContent('education-description')">> education</h1>
+            <div id="education-description" class="section-description">
+                <ul>
+                    <li>
+                        08/2017 &mdash; 08/2023 --
+                        &emsp; Ph.D. (Computer Sci.) --
+                        &emsp; Texas A&amp;M University, College Station, TX, USA.
+                    </li>
+                    <li>
+                        08/2012 &mdash; 07/2016 --
+                        &emsp; B.Tech. (Electronics &amp; Communication Engg.) --
+                        &emsp; KIET, Ghaziabad, UP, India.
+                    </li>
+                </ul>
+            </div>
+        
+        </div>
+        <div class="section-spacer"></div>
+        <div class="section skill">
+            <h1 class="section-header" onclick="toggleSectionContent('skill-description')">> skill</h1>
+            <div id="skill-description" class="section-description">
+                <table>
+                    <tr>
+                        <td>|_</td>
+                        <td>Programming</td>
+                        <td></td>
+                        <td>&emsp; ++++++++++</td>
+                    </tr>
+                    <tr>
+                         <td></td>
+                        <td>|-------------------</td>
+                        <td>&emsp; Python</td>
+                        <td>&emsp; ++++++++++</td>
+                    </tr>
+                    <tr>
+                         <td></td>
+                        <td>|-------------------</td>
+                        <td>&emsp; C/C++</td>
+                        <td>&emsp; <span class="green">++++++++++</span></td>
+                    </tr>
+                    <tr>
+                         <td></td>
+                        <td>|-------------------</td>
+                        <td>&emsp; C#</td>
+                        <td>&emsp; ++++++++++</td>
+                    </tr>
+                    <tr>
+                        <td>|_</td>
+                        <td>AI and ML</td>
+                        <td></td>
+                        <td>&emsp; ++++++++++</td>
+                    </tr>
+                    <tr>
+                         <td></td>
+                        <td>|-------------------</td>
+                        <td>&emsp; PyTorch</td>
+                        <td>&emsp; ++++++++++</td>
+                    </tr>
+                    <tr>
+                        <td>|_</td>
+                        <td>Robotics</td>
+                        <td></td>
+                        <td>&emsp; ++++++++++</td>
+                    </tr>
+                    <tr>
+                         <td></td>
+                        <td>|-------------------</td>
+                        <td>&emsp; ROS/ROS2</td>
+                        <td>&emsp; <span class="green">++</span>++++++++</td>
+                    </tr>
+                    <tr>
+                        <td>|_</td>
+                        <td>Embedded Systems</td>
+                        <td></td>
+                        <td>&emsp; ++++++++++</td>
+                    </tr>
+                    <tr>
+                        <td>|_</td>
+                        <td>Game Development</td>
+                        <td></td>
+                        <td>&emsp; ++++++++++</td>
+                    </tr>
+                </table>
+            </div>
+        
+        </div>
+        
+        <div class="section-spacer"></div>
+        <div class="section experience">
+            <h1 class="section-header" onclick="toggleSectionContent('experience-description')">> experience</h1>
+            <div id="experience-description" class="section-description">
+                <div class="experience-usage">
+                    <h1 class="subsection-header">usage : --filter/-f</h1>
+                    <select class="selection-options" name="etat" id="exp-country-sel" onChange="filterCountrySelection()">
+                        <option value="all">--</option>
+                        <option value="us-experience">us</option>
+                        <option value="india-experience">india</option>
+                        <option value="academy-experience">academic</option>
+                        <option value="compsci-experiance">compsci</option>
+                        <option value="embedded-experience">embedded</option>
+                    </select>
+                </div>
+        
+                <!-- <table> -->
+                    <div class="experience-subsection industry-experience compsci-experiance embedded-experience us-experience">
+                        <table>
+                            <tr>
+                                <td>07/2023 &mdash; Present</td>
+                                <td>&emsp;Software Engineer II</td>
+                                <td></td>
+        
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>&emsp;|_&emsp; Silicon Laboratories Inc.&emsp;&emsp;&emsp;</td>
+                                <!-- <td><center>-------</center></td> -->
+                                <td>&emsp; Austin, TX.</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>>> Designed company's internal software. </td>
+        
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="sub-section-spacer"></div>
+        
+                    <!-- ------------------------------ -->
+                    <div class="experience-subsection academy-experience compsci-experiance us-experience">
+                        <table>
+                            <tr>
+                                <td>09/2017 &mdash; 05/2023</td>
+                                <td>&emsp;Graduate Research Assistant</td>
+                                <td></td>
+        
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>&emsp;|_&emsp; Distributed AI Robotics Lab.</td>
+                                <!-- <td><center>-------</center></td> -->
+                                <td>&emsp; TAMU, College Station, TX.</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>>> Designed and analyzed planning <br>
+                                    problems for multi-agent systems. </td>
+        
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>>> Designed and analyzed economic theories <br>
+                                    for multi-agent crowdsouring systems.</td>
+        
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="sub-section-spacer"></div>
+                    <!-- ------------------------------ -->
+                    <div class="experience-subsection academy-experience us-experience">
+                        <table>
+                            <tr>
+                                <td>Graduate Teaching Assistant</td>
+                                <td></td>
+                                <td>09/2019 &mdash; 05/2020</td>
+                            </tr>
+                            <tr>
+                                <td>&emsp;|_&emsp; Texas A &amp;M University.</td>
+                                <td><center>-------</center></td>
+                                <td>College Station, TX.</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td> >> Mentored multiple groups of student on <br>
+                                     their honor's projects. </td>
+                                <td></td>
+        
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td> >> Taught lectures on Natural Language Processing <br>
+                                     and Temporal Logic.</td>
+                                <td></td>
+        
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- ------------------------------ -->
+                     <div class="experience-subsection academy-experience compsci-experiance us-experience">
+                        <table>
+                            <tr>
+                                <td>Graduate Research Fellow</td>
+                                <td></td>
+                                <td>06/2018 &mdash; 08/2019</td>
+                            </tr>
+                            <tr>
+                                <td>&emsp;|_&emsp; Mays Innovation Research Center.</td>
+                                <td><center>-------</center></td>
+                                <td>College Station, TX.</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td> >> Analyzed incentivisation theory and mechanism <br>
+                                     design for crowdsourced markets. </td>
+                                <td></td>
+        
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td> >> Mentored undergraduate students on topics of <br>
+                                     crowdsourcing. </td>
+                                <td></td>
+        
+                            </tr>
+                        </table>
+                     </div>
+                    <!-- ------------------------------ -->
+                     <div class="experience-subsection industry-experience embedded-experience india-experience">
+                        <table>
+                            <tr>
+                                <td>Technical Consultant</td>
+                                <td></td>
+                                <td>08/2016 &mdash; 01/2017</td>
+                            </tr>
+                            <tr>
+                                <td>&emsp;|_&emsp; D. Devshi Pvt. Ltd.</td>
+                                <td><center>-------</center></td>
+                                <td>Ghaziabad, UP, Ind.</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td> >> Advised committee on new consumer home automation <br>
+                                     electronics products based on market research. </td>
+                                <td></td>
+                            </tr>
+                        </table>
+                     </div>
+                    <!-- ------------------------------ -->
+                      <div class="experience-subsection industry-experience embedded-experience india-experience">
+                        <table>
+                            <tr>
+                                <td>Embedded System Engineer</td>
+                                <td></td>
+                                <td>06/2016 &mdash; 08/2016</td>
+                            </tr>
+                            <tr>
+                                <td>&emsp;|_&emsp; Smart Joules Pvt. Ltd.</td>
+                                <td><center>-------</center></td>
+                                <td>Delhi, Ind.</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td> >> Designed low-cost PLC module using Atmel ATMega16 microprocessor. </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td> >> Implemented PLC embedded software using embedded C via Atmel Studio.  </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td> >> Designed an efficient data logging hardware for monitoring <br>
+                                     various parameters of a hospital environment.  </td>
+                                <td></td>
+                            </tr>
+                        </table>
+                     </div>
+                    <!-- ------------------------------ -->
+                      <div class="experience-subsection academy-experience embedded-experience india-experience">
+                        <table>
+                            <tr>
+                                <td>Co-founder and Chairperson</td>
+                                <td></td>
+                                <td>08/2013 &mdash; 05/2016</td>
+                            </tr>
+                            <tr>
+                                <td>&emsp;|_&emsp; Dinobots Collegiate Club</td>
+                                <td><center>-------</center></td>
+                                <td>KIET, Ghaziabad, UP, Ind.</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td> >> Founded collegiate club with the vision to take part in <br>
+                                     national robotics competitions.  </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td> >> Achieved National runner-up position in ROBOCON 2015.</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td> >> Designed robotic platforms for school students using <br>
+                                     Atmel ATmega16 and ATmega2560. </td>
+                                <td></td>
+                            </tr>
+                        </table>
+                     </div>
+                    <!-- ------------------------------ -->
+                      <div class="experience-subsection industry-experience embedded-experience india-experience">
+                        <table>
+                            <tr>
+                                <td>Project Engineer</td>
+                                <td></td>
+                                <td>11/2015 &mdash; 08/2013</td>
+                            </tr>
+                            <tr>
+                                <td>&emsp;|_&emsp; Sapro Robotics Pvt. Ltd.</td>
+                                <td><center>-------</center></td>
+                                <td>Ghaziabad, UP, Ind.</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td> >> Project leader for commercial GSM based Water-level <br>
+                                     Monitor, and Home Automation System circuit using <br>
+                                      Atmel ATmega16. </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td> >> Conducted workshop on embedded C. </td>
+                                <td></td>
+                            </tr>
+                        </table>
+                     </div>
+                    <!-- ------------------------------ -->
+                <!-- </table> -->
+            </div>
+        
+        </div>
+    </div>
+
+    <div id="game-container">
+        Hello World!
+    </div>
+    
+
+    <footer>
+        <div class="console">
+            <div class="terminal"></div>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

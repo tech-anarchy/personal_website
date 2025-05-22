@@ -1,0 +1,114 @@
+body {
+    color: #aaa;
+    background-color: #272a26;
+}
+
+a {
+    color: #7954d1;
+    text-decoration: none;
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#resume-container {
+    display: block;
+}
+
+#game-container {
+    display: none;
+}
+
+.intro-header {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.75em;
+    color: #aaa;
+    /* text-align: center; */
+    margin-top: 20px;
+}
+
+.section-header {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.5em;
+    color: #aaa;
+    /* text-align: center; */
+    margin-top: 10px;
+}
+
+.subsection-header {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.35em;
+    color: #aaa;
+    /* text-align: center; */
+    margin-top: 10px;
+}
+
+.selection-options {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.35em;
+    color: #040517;
+}
+
+.section-header:hover {
+    color: #7954d1;
+    cursor: pointer;
+}
+
+.section-spacer {
+    height: 3px;
+}
+
+.sub-section-spacer {
+    height: 15px;
+}
+
+.section-description {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 0.85em;
+    color: #aaa;
+    /* text-align: center; */
+    margin-top: 20px;
+    display: none;
+}
+
+.experience-subsection {
+    display: none;
+}
+
+.experience-subsection.show-filter {
+    display: block;
+}
+
+span.green {
+    color: #00ff00;
+}
+
+.terminal {
+    background-color: #2a2726;
+    height: 275px; 
+    --terminal-height: 298.4; 
+    --terminal-x: 10.800048828125; 
+    --terminal-y: 25.199996948242188; 
+    --terminal-scroll: 0; 
+    --cmd-top: 14.4; 
+    --cmd-height: 14.4;
+    --font: "VT323", monospace;
+    --size: 1.5;
+}
+
+footer{
+    height: 275px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+}
