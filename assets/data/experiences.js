@@ -11,7 +11,7 @@ let experiances = [
         position : "Graduate Research Assistant",
         company : "Distributed AI Robotics Lab, Texas A & M University, College Station.",
         start : "Sep. 2017",
-        end_month: "May 2023",
+        end_month: "May",
         end_year: "2023",
         desc : "<i class='bx bx-chevrons-right'></i> Designed and analyzed planning problems for multi-agent systems. </br>" +
                 "<i class='bx bx-chevrons-right'></i> Designed and analyzed economic theories for multi-agent crowdsouring systems.",
